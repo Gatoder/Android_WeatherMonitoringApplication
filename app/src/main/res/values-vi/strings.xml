@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mabox</string>
+    <string name="loading">Đang tải...</string>
+    <string name="no_internet_connection">Không có kết nối Internet</string>
+    <string name="lbl_next">Đăng nhập</string>
+    <string name="lbl_Register">Đăng ký</string>
+    <string name="msg_sign_in_to_acce">Đăng nhập để vào tài khoản</string>
+    <string name="lbl_welcome_to_home">Chào mừng</string>
+    <string name="msg_new_member_reg">Chưa có tài khoản?</string>
+    <string name="lbl_password">Mật khẩu</string>
+    <string name="position">Vị trí</string>
+    <string name="user_name">Tên đăng nhập</string>
+    <string name="humidity_percentage">Độ ẩm(%)</string>
+    <string name="msg_manufacturer">Trụ sở</string>
+    <string name="rain_fall">Mực nước mưa(mm)</string>
+    <string name="temperature">Nhiệt độ (°C)</string>
+    <string name="wind_direction">Hướng gió</string>
+    <string name="wind_speed">Sức gió</string>
+    <string name="brightness">Độ sáng(%)</string>
+    <string name="colour_temperature">Màu sắc nhiệt độ</string>
+    <string name="on_off">Bật/mở</string>
+    <string name="select_attribute">Chọn thuộc tính</string>
+    <string name="select_timer">Chọn bộ hẹn giờ</string>
+    <string name="select_date">Chọn ngày</string>
+    <string name="show_chart">HIỂN THỊ</string>
+    <string name="weather_greeting">Chào mừng Việt Nam</string>
+    <string name="weather_title">Đây là những thông tin bạn cần</string>
+    <string name="sunrise">Mặt trời mọc lúc</string>
+    <string name="sunset">Mặt trời lặn lúc</string>
+    <string name="language_change">Đổi ngôn ngữ</string>
+</resources>

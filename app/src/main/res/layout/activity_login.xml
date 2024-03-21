@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login"
+    tools:context=".ModelLogin.LoginActivity">
+
+
+    <EditText
+        android:id="@+id/edtPassword"
+        style="@style/etSolidRounded"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/rectangle_bg_gray_400_33_radius_10"
+        android:drawableEnd="@drawable/img_lock"
+        android:drawablePadding="@dimen/_30pxh"
+        android:ellipsize="end"
+        android:hint="@string/lbl_password"
+        android:inputType="textPassword"
+        android:paddingStart="@dimen/_22pxh"
+        android:paddingTop="@dimen/_16pxv"
+        android:paddingEnd="@dimen/_21pxh"
+        android:paddingBottom="@dimen/_15pxv"
+        android:singleLine="true"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtUsername"
+        tools:ignore="Autofill" />
+
+
+    <EditText
+        android:id="@+id/edtUsername"
+        style="@style/etSolidRounded"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="388dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/rectangle_bg_gray_400_33_radius_10"
+        android:drawableEnd="@drawable/img_user"
+        android:drawablePadding="@dimen/_30pxh"
+        android:ellipsize="end"
+        android:hint="@string/user_name"
+        android:paddingStart="@dimen/_22pxh"
+        android:paddingTop="@dimen/_16pxv"
+        android:paddingEnd="@dimen/_21pxh"
+        android:paddingBottom="@dimen/_15pxv"
+        android:singleLine="true"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill" />
+
+    <TextView
+        android:id="@+id/txtSignintoacce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="@string/msg_sign_in_to_acce"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtWelcomeback" />
+
+
+    <!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/changelangbtn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="0dp"-->
+<!--        android:layout_marginEnd="0dp"-->
+<!--        android:paddingLeft="20dp"-->
+<!--        android:background="@drawable/custom_button2"-->
+<!--        android:text="@string/language_change"-->
+<!--        android:paddingRight="20dp"-->
+<!--        android:textSize="12dp"-->
+<!--        android:textColor="@color/white"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <TextView
+        android:id="@+id/txtWelcomeback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="130dp"
+        android:ellipsize="middle"
+        android:fontFamily="@font/montserrat"
+        android:gravity="top"
+        android:singleLine="true"
+        android:text="@string/lbl_welcome_to_home"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/changelangbtn"
+        style="@style/txtMontserratmedium13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:singleLine="true"
+        android:text="@string/language_change"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sign_in_button_homepage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/custom_button2"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/lbl_next"
+        android:textAllCaps="false"
+        android:textColor="#FFFF"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtPassword" />
+
+    <ImageView
+        android:id="@+id/imageUndrawadventur"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="92dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/login_logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
